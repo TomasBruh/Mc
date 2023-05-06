@@ -1,367 +1,81 @@
-[16:23:51] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:23:51] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
-com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:119) ~[authlib-4.0.42.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:91) ~[authlib-4.0.42.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:94) ~[authlib-4.0.42.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.lambda$get$1(YggdrasilServicesKeyInfo.java:81) ~[authlib-4.0.42.jar:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.net.UnknownHostException: api.minecraftservices.com
-	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:564) ~[?:?]
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.net.Socket.connect(Socket.java:633) ~[?:?]
-	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299) ~[?:?]
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[?:?]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[?:?]
-	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
-	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:378) ~[?:?]
-	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1287) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
-	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
-	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-4.0.42.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:96) ~[authlib-4.0.42.jar:?]
-	... 9 more
-[16:23:53] [ServerMain/INFO]: Loaded 7 recipes
-[16:23:54] [ServerMain/INFO]: Loaded 1268 advancements
-[16:23:54] [Server thread/INFO]: Starting minecraft server version 23w18a
-[16:23:54] [Server thread/INFO]: Loading properties
-[16:23:54] [Server thread/INFO]: Default game type: SURVIVAL
-[16:23:54] [Server thread/INFO]: Generating keypair
-[16:23:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:23:54] [Server thread/INFO]: Using default channel type
-[16:23:55] [Server thread/INFO]: Preparing level "world"
-[16:23:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:24:00] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[16:24:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:24:00] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[16:24:00] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[16:24:01] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[16:24:01] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[16:24:02] [Worker-Main-11/INFO]: Preparing spawn area: 1%
-[16:24:02] [Worker-Main-8/INFO]: Preparing spawn area: 1%
-[16:24:03] [Worker-Main-2/INFO]: Preparing spawn area: 3%
-[16:24:03] [Worker-Main-10/INFO]: Preparing spawn area: 4%
-[16:24:04] [Worker-Main-3/INFO]: Preparing spawn area: 4%
-[16:24:04] [Worker-Main-1/INFO]: Preparing spawn area: 6%
-[16:24:05] [Worker-Main-9/INFO]: Preparing spawn area: 9%
-[16:24:05] [Worker-Main-3/INFO]: Preparing spawn area: 11%
-[16:24:06] [Worker-Main-11/INFO]: Preparing spawn area: 15%
-[16:24:06] [Worker-Main-9/INFO]: Preparing spawn area: 16%
-[16:24:07] [Worker-Main-9/INFO]: Preparing spawn area: 19%
-[16:24:07] [Worker-Main-9/INFO]: Preparing spawn area: 22%
-[16:24:08] [Worker-Main-7/INFO]: Preparing spawn area: 24%
-[16:24:08] [Worker-Main-11/INFO]: Preparing spawn area: 27%
-[16:24:09] [Worker-Main-9/INFO]: Preparing spawn area: 29%
-[16:24:09] [Worker-Main-7/INFO]: Preparing spawn area: 32%
-[16:24:10] [Worker-Main-7/INFO]: Preparing spawn area: 36%
-[16:24:10] [Worker-Main-10/INFO]: Preparing spawn area: 39%
-[16:24:11] [Worker-Main-4/INFO]: Preparing spawn area: 42%
-[16:24:11] [Worker-Main-1/INFO]: Preparing spawn area: 44%
-[16:24:12] [Worker-Main-4/INFO]: Preparing spawn area: 49%
-[16:24:12] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[16:24:13] [Worker-Main-6/INFO]: Preparing spawn area: 55%
-[16:24:13] [Worker-Main-3/INFO]: Preparing spawn area: 59%
-[16:24:14] [Worker-Main-5/INFO]: Preparing spawn area: 62%
-[16:24:14] [Worker-Main-5/INFO]: Preparing spawn area: 68%
-[16:24:15] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[16:24:15] [Worker-Main-7/INFO]: Preparing spawn area: 68%
-[16:24:16] [Worker-Main-9/INFO]: Preparing spawn area: 70%
-[16:24:16] [Worker-Main-11/INFO]: Preparing spawn area: 75%
-[16:24:17] [Worker-Main-4/INFO]: Preparing spawn area: 79%
-[16:24:17] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[16:24:18] [Worker-Main-10/INFO]: Preparing spawn area: 84%
-[16:24:18] [Worker-Main-5/INFO]: Preparing spawn area: 87%
-[16:24:19] [Worker-Main-5/INFO]: Preparing spawn area: 91%
-[16:24:19] [Worker-Main-11/INFO]: Preparing spawn area: 96%
-[16:24:20] [Server thread/INFO]: Time elapsed: 20786 ms
-[16:24:20] [Server thread/INFO]: Done (24.832s)! For help, type "help"
-[16:25:50] [User Authenticator #1/INFO]: Disconnecting com.mojang.authlib.GameProfile@5715716a[id=<null>,name=TomasMagnus,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:51738): Authentication servers are down. Please try again later, sorry!
-[16:25:50] [User Authenticator #1/ERROR]: Couldn't verify username because servers are unavailable
-[16:25:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@5715716a[id=<null>,name=TomasMagnus,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:51738) lost connection: Authentication servers are down. Please try again later, sorry!
-[16:26:00] [User Authenticator #2/INFO]: Disconnecting com.mojang.authlib.GameProfile@5cb58b16[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:51747): Authentication servers are down. Please try again later, sorry!
-[16:26:00] [User Authenticator #2/ERROR]: Couldn't verify username because servers are unavailable
-[16:26:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@5cb58b16[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:51747) lost connection: Authentication servers are down. Please try again later, sorry!
-[16:26:08] [User Authenticator #3/INFO]: UUID of player TomasMagnus is 8ca1820f-a196-4bb4-8670-13975617a407
-[16:26:08] [Server thread/INFO]: TomasMagnus[/[0:0:0:0:0:0:0:1]:51756] logged in with entity id 400 at (-7.5, 63.0, -237.5)
-[16:26:08] [Server thread/INFO]: TomasMagnus joined the game
-[16:26:11] [User Authenticator #4/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[16:26:11] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:51764] logged in with entity id 535 at (-13.5, 64.0, -243.5)
-[16:26:11] [Server thread/INFO]: ItsOxas joined the game
-[16:26:11] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[16:26:12] [Server thread/WARN]: Ignoring chat session from TomasMagnus due to missing Services public key
-[16:26:15] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[16:26:15] [Server thread/INFO]: ItsOxas left the game
-[16:26:18] [User Authenticator #5/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[16:26:18] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:51769] logged in with entity id 551 at (-13.5, 64.0, -243.5)
-[16:26:18] [Server thread/INFO]: ItsOxas joined the game
-[16:26:18] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[16:28:59] [Server thread/INFO]: ItsOxas has made the advancement [Stone Age]
-[16:29:29] [Server thread/INFO]: TomasMagnus has made the advancement [Stone Age]
-[16:29:34] [Server thread/INFO]: TomasMagnus has made the advancement [Getting an Upgrade]
-[16:29:37] [Server thread/INFO]: ItsOxas has made the advancement [Getting an Upgrade]
-[16:30:17] [Server thread/INFO]: ItsOxas has made the advancement [Monster Hunter]
-[16:34:13] [Server thread/INFO]: TomasMagnus was blown up by Creeper
-[16:36:42] [Server thread/INFO]: TomasMagnus has made the advancement [Acquire Hardware]
-[16:37:01] [Server thread/INFO]: TomasMagnus has made the advancement [Monster Hunter]
-[16:38:30] [Server thread/INFO]: ItsOxas has made the advancement [Acquire Hardware]
-[16:39:18] [Server thread/INFO]: ItsOxas has made the advancement [A Seedy Place]
-[16:39:19] [Server thread/INFO]: TomasMagnus has made the advancement [Isn't It Iron Pick]
-[16:39:23] [Server thread/INFO]: ItsOxas has made the advancement [Isn't It Iron Pick]
-[16:44:15] [Server thread/INFO]: TomasMagnus has made the advancement [Hot Stuff]
-[16:44:31] [Server thread/INFO]: ItsOxas has made the advancement [Hot Stuff]
-[16:47:09] [Server thread/INFO]: TomasMagnus has made the advancement [We Need to Go Deeper]
-[16:47:10] [Server thread/INFO]: ItsOxas has made the advancement [We Need to Go Deeper]
-[16:47:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2621ms or 52 ticks behind
-[16:47:21] [Server thread/INFO]: TomasMagnus has made the advancement [A Terrible Fortress]
-[16:47:49] [Server thread/INFO]: ItsOxas has made the advancement [A Terrible Fortress]
-[16:52:02] [Server thread/INFO]: ItsOxas has made the advancement [Diamonds!]
-[16:52:10] [Server thread/INFO]: TomasMagnus has made the advancement [Diamonds!]
-[16:55:12] [Server thread/INFO]: TomasMagnus has made the advancement [Who is Cutting Onions?]
-[16:56:23] [Server thread/INFO]: ItsOxas has made the advancement [Spooky Scary Skeleton]
-[16:56:34] [Server thread/INFO]: TomasMagnus has made the advancement [Spooky Scary Skeleton]
-[17:00:26] [Server thread/INFO]: TomasMagnus has made the advancement [Ice Bucket Challenge]
-[17:04:50] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:04:50] [Server thread/INFO]: ItsOxas left the game
-[17:17:06] [Server thread/INFO]: TomasMagnus has made the advancement [Suit Up]
-[17:23:17] [User Authenticator #6/INFO]: Disconnecting com.mojang.authlib.GameProfile@6b4b19e0[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:51986): Authentication servers are down. Please try again later, sorry!
-[17:23:17] [User Authenticator #6/ERROR]: Couldn't verify username because servers are unavailable
-[17:23:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@6b4b19e0[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:51986) lost connection: Authentication servers are down. Please try again later, sorry!
-[17:23:26] [User Authenticator #7/INFO]: Disconnecting com.mojang.authlib.GameProfile@4fcd0e6a[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:51987): Authentication servers are down. Please try again later, sorry!
-[17:23:26] [User Authenticator #7/ERROR]: Couldn't verify username because servers are unavailable
-[17:23:26] [Server thread/INFO]: com.mojang.authlib.GameProfile@4fcd0e6a[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:51987) lost connection: Authentication servers are down. Please try again later, sorry!
-[17:23:36] [User Authenticator #8/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:23:36] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:51988] logged in with entity id 9378 at (58.463588821647164, 50.0, -78.5194473727919)
-[17:23:36] [Server thread/INFO]: ItsOxas joined the game
-[17:23:37] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:24:32] [Server thread/INFO]: [Not Secure] <TomasMagnus> 10 -240
-[17:33:46] [Server thread/INFO]: TomasMagnus lost connection: Disconnected
-[17:33:46] [Server thread/INFO]: TomasMagnus left the game
-[17:34:16] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:34:16] [Server thread/INFO]: ItsOxas left the game
-[17:34:29] [User Authenticator #9/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:34:29] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52037] logged in with entity id 10668 at (-216.30000001192093, 27.829995527828732, -442.47788288244993)
-[17:34:29] [Server thread/INFO]: ItsOxas joined the game
-[17:34:31] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:34:33] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:34:33] [Server thread/INFO]: ItsOxas left the game
-[17:34:38] [User Authenticator #10/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:34:38] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52039] logged in with entity id 10812 at (-216.30000001192093, 20.0, -442.47788288244993)
-[17:34:38] [Server thread/INFO]: ItsOxas joined the game
-[17:34:39] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:34:40] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:34:40] [Server thread/INFO]: ItsOxas left the game
-[17:34:44] [User Authenticator #11/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:34:44] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52041] logged in with entity id 10974 at (-216.30000001192093, 20.159960925877094, -442.47788288244993)
-[17:34:44] [Server thread/INFO]: ItsOxas joined the game
-[17:34:45] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:34:46] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:34:46] [Server thread/INFO]: ItsOxas left the game
-[17:34:55] [User Authenticator #12/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:34:55] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52043] logged in with entity id 11134 at (-216.30000001192093, 20.724060905352232, -442.47788288244993)
-[17:34:55] [Server thread/INFO]: ItsOxas joined the game
-[17:34:55] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:34:57] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:34:57] [Server thread/INFO]: ItsOxas left the game
-[17:34:59] [User Authenticator #13/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:34:59] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52045] logged in with entity id 11297 at (-216.30000001192093, 21.177401507150975, -442.47788288244993)
-[17:34:59] [Server thread/INFO]: ItsOxas joined the game
-[17:34:59] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:35:01] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:35:01] [Server thread/INFO]: ItsOxas left the game
-[17:35:07] [User Authenticator #14/INFO]: Disconnecting com.mojang.authlib.GameProfile@4495a221[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52052): Authentication servers are down. Please try again later, sorry!
-[17:35:07] [User Authenticator #14/ERROR]: Couldn't verify username because servers are unavailable
-[17:35:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@4495a221[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52052) lost connection: Authentication servers are down. Please try again later, sorry!
-[17:35:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@18ff400d[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52053) lost connection: Disconnected
-[17:35:18] [User Authenticator #15/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:35:18] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52055] logged in with entity id 11457 at (-216.30000001192093, 21.06979478057131, -442.47788288244993)
-[17:35:18] [Server thread/INFO]: ItsOxas joined the game
-[17:35:19] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:35:21] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:35:21] [Server thread/INFO]: ItsOxas left the game
-[17:35:26] [User Authenticator #16/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:35:26] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52057] logged in with entity id 11615 at (-216.30000001192093, 21.634687328186185, -442.47788288244993)
-[17:35:26] [Server thread/INFO]: ItsOxas joined the game
-[17:35:26] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:35:29] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:35:29] [Server thread/INFO]: ItsOxas left the game
-[17:35:33] [User Authenticator #17/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:35:33] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52059] logged in with entity id 11774 at (-216.30000001192093, 20.12233157726086, -442.47788288244993)
-[17:35:33] [Server thread/INFO]: ItsOxas joined the game
-[17:35:33] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:35:35] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:35:35] [Server thread/INFO]: ItsOxas left the game
-[17:35:42] [User Authenticator #18/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:35:42] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52061] logged in with entity id 11934 at (-216.30000001192093, 20.04393157573498, -442.47788288244993)
-[17:35:42] [Server thread/INFO]: ItsOxas joined the game
-[17:35:43] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:35:44] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:35:44] [Server thread/INFO]: ItsOxas left the game
-[17:35:50] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[17:35:50] [Server thread/INFO]: /SET<--[HERE]
-[17:35:55] [User Authenticator #19/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:35:55] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52065] logged in with entity id 12094 at (-216.30000001192093, 20.0, -442.47788288244993)
-[17:35:55] [Server thread/INFO]: ItsOxas joined the game
-[17:35:56] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:35:57] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:35:57] [Server thread/INFO]: ItsOxas left the game
-[17:36:08] [User Authenticator #20/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:36:08] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52076] logged in with entity id 12258 at (-216.30000001192093, 20.0, -442.47788288244993)
-[17:36:08] [Server thread/INFO]: ItsOxas joined the game
-[17:36:09] [Server thread/INFO]: Set ItsOxas's game mode to Creative Mode
-[17:36:09] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:36:10] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:36:10] [Server thread/INFO]: ItsOxas left the game
-[17:36:14] [User Authenticator #21/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:36:14] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52078] logged in with entity id 12420 at (-216.30000001192093, 20.0, -442.47788288244993)
-[17:36:14] [Server thread/INFO]: ItsOxas joined the game
-[17:36:15] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:36:17] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:36:17] [Server thread/INFO]: ItsOxas left the game
-[17:36:20] [User Authenticator #22/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[17:36:20] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:52080] logged in with entity id 12586 at (-216.30000001192093, 20.63998044550419, -442.47788288244993)
-[17:36:20] [Server thread/INFO]: ItsOxas joined the game
-[17:36:20] [Server thread/WARN]: Ignoring chat session from ItsOxas due to missing Services public key
-[17:36:43] [Server thread/INFO]: Made ItsOxas a server operator
-[17:36:58] [User Authenticator #23/INFO]: Disconnecting com.mojang.authlib.GameProfile@380017[id=<null>,name=TomasMagnus,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52084): Authentication servers are down. Please try again later, sorry!
-[17:36:58] [User Authenticator #23/ERROR]: Couldn't verify username because servers are unavailable
-[17:36:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@380017[id=<null>,name=TomasMagnus,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52084) lost connection: Authentication servers are down. Please try again later, sorry!
-[17:37:00] [User Authenticator #24/INFO]: Disconnecting com.mojang.authlib.GameProfile@9bef7e2[id=<null>,name=TomasMagnus,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52087): Authentication servers are down. Please try again later, sorry!
-[17:37:00] [User Authenticator #24/ERROR]: Couldn't verify username because servers are unavailable
-[17:37:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@9bef7e2[id=<null>,name=TomasMagnus,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52087) lost connection: Authentication servers are down. Please try again later, sorry!
-[17:37:01] [User Authenticator #25/INFO]: Disconnecting com.mojang.authlib.GameProfile@7566308f[id=<null>,name=TomasMagnus,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52089): Authentication servers are down. Please try again later, sorry!
-[17:37:01] [User Authenticator #25/ERROR]: Couldn't verify username because servers are unavailable
-[17:37:01] [Server thread/INFO]: com.mojang.authlib.GameProfile@7566308f[id=<null>,name=TomasMagnus,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52089) lost connection: Authentication servers are down. Please try again later, sorry!
-[17:37:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@312c189b[id=<null>,name=TomasMagnus,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52091) lost connection: Disconnected
-[17:37:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@3260dfed[id=<null>,name=TomasMagnus,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52095) lost connection: Disconnected
-[17:37:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@504bf8ef[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52096) lost connection: Disconnected
-[17:37:11] [Server thread/INFO]: com.mojang.authlib.GameProfile@5ef2c626[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52097) lost connection: Disconnected
-[17:37:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@51f1d197[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52098) lost connection: Disconnected
-[17:37:17] [User Authenticator #26/INFO]: UUID of player TomasMagnus is 8ca1820f-a196-4bb4-8670-13975617a407
-[17:37:17] [Server thread/INFO]: TomasMagnus[/127.0.0.1:52105] logged in with entity id 12773 at (-220.30728153704476, 28.966845163968138, -433.62950884188774)
-[17:37:17] [Server thread/INFO]: TomasMagnus joined the game
-[17:37:18] [Server thread/INFO]: [ItsOxas: Set TomasMagnus's game mode to Creative Mode]
-[17:37:19] [Server thread/WARN]: Ignoring chat session from TomasMagnus due to missing Services public key
-[17:37:39] [Server thread/INFO]: [ItsOxas: Set own game mode to Survival Mode]
-[17:38:03] [Server thread/INFO]: Made ItsOxas a server operator
-[17:38:10] [Server thread/INFO]: [TomasMagnus: Set own game mode to Survival Mode]
-[17:38:50] [Server thread/INFO]: TomasMagnus lost connection: Disconnected
-[17:38:50] [Server thread/INFO]: TomasMagnus left the game
-[17:45:11] [Server thread/INFO]: ItsOxas has made the advancement [Best Friends Forever]
-[17:46:22] [Server thread/WARN]: Horse (vehicle of ItsOxas) moved wrongly! 0.28767724996623656
-[17:46:22] [Server thread/WARN]: Horse (vehicle of ItsOxas) moved wrongly! 0.6156442995175727
-[17:46:22] [Server thread/WARN]: Horse (vehicle of ItsOxas) moved wrongly! 1.0173300685334006
-[17:51:30] [User Authenticator #27/INFO]: Disconnecting com.mojang.authlib.GameProfile@7e9bdcdb[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52186): Authentication servers are down. Please try again later, sorry!
-[17:51:30] [User Authenticator #27/ERROR]: Couldn't verify username because servers are unavailable
-[17:51:30] [Server thread/INFO]: com.mojang.authlib.GameProfile@7e9bdcdb[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52186) lost connection: Authentication servers are down. Please try again later, sorry!
-[17:51:32] [User Authenticator #28/INFO]: Disconnecting com.mojang.authlib.GameProfile@6eb53c4e[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52188): Authentication servers are down. Please try again later, sorry!
-[17:51:32] [User Authenticator #28/ERROR]: Couldn't verify username because servers are unavailable
-[17:51:32] [Server thread/INFO]: com.mojang.authlib.GameProfile@6eb53c4e[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52188) lost connection: Authentication servers are down. Please try again later, sorry!
-[17:51:33] [User Authenticator #29/INFO]: Disconnecting com.mojang.authlib.GameProfile@bebca60[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52189): Authentication servers are down. Please try again later, sorry!
-[17:51:33] [User Authenticator #29/ERROR]: Couldn't verify username because servers are unavailable
-[17:51:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@bebca60[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52189) lost connection: Authentication servers are down. Please try again later, sorry!
-[17:51:35] [Server thread/INFO]: com.mojang.authlib.GameProfile@7cfe059e[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52190) lost connection: Disconnected
-[17:51:35] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[17:51:35] [Server thread/INFO]: ItsOxas left the game
-[17:51:36] [Server thread/INFO]: com.mojang.authlib.GameProfile@429b171a[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52191) lost connection: Disconnected
-[17:51:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@1beec1aa[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52192) lost connection: Disconnected
-[17:51:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@134221f6[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52203) lost connection: Disconnected
-[17:52:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 50866ms or 1017 ticks behind
-[17:52:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@7fe05225[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52220) lost connection: Disconnected
-[17:52:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@65d9a904[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52209) lost connection: Disconnected
-[17:52:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@857c784[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52206) lost connection: Disconnected
-[17:52:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@a980ae9[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52205) lost connection: Disconnected
-[17:52:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@771400e5[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52222) lost connection: Disconnected
-[17:52:37] [Netty Server IO #20/ERROR]: Thread dumps: 
-Netty Server IO #20: 
-	at java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
-	at aps.a(SourceFile:92)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at aps.a(SourceFile:82)
-	at dhd.c(SourceFile:49)
-	at dgr.f(SourceFile:13)
-	at aiy.<init>(SourceFile:62)
-	at aix.a(SourceFile:43)
-	at abb.a(SourceFile:43)
-	at abb.a(SourceFile:8)
-	at sd.a(SourceFile:170)
-	at sd.a(SourceFile:155)
-	at sd.channelRead0(SourceFile:52)
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-	at ait.channelRead(SourceFile:95)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[17:52:57] [User Authenticator #30/INFO]: Disconnecting com.mojang.authlib.GameProfile@2b59767d[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52232): Authentication servers are down. Please try again later, sorry!
-[17:52:57] [User Authenticator #31/INFO]: Disconnecting com.mojang.authlib.GameProfile@799b3edf[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52233): Authentication servers are down. Please try again later, sorry!
-[17:52:57] [User Authenticator #31/ERROR]: Couldn't verify username because servers are unavailable
-[17:52:57] [User Authenticator #30/ERROR]: Couldn't verify username because servers are unavailable
-[17:52:57] [Server thread/INFO]: com.mojang.authlib.GameProfile@2b59767d[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52232) lost connection: Authentication servers are down. Please try again later, sorry!
-[17:52:57] [Server thread/INFO]: com.mojang.authlib.GameProfile@799b3edf[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52233) lost connection: Authentication servers are down. Please try again later, sorry!
-[17:53:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@5fad068a[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:52240) lost connection: Disconnected
-[17:53:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5666ms or 113 ticks behind
-[17:53:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@69f0911c[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:52237) lost connection: Disconnected
-[17:53:11] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[17:53:11] [Server thread/INFO]: sstop<--[HERE]
-[17:53:12] [Server thread/INFO]: Stopping the server
-[17:53:12] [Server thread/INFO]: Stopping server
-[17:53:12] [Server thread/INFO]: Saving players
-[17:53:12] [Server thread/INFO]: Saving worlds
-[17:53:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:53:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:53:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:53:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:53:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:53:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:53:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:07:06] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:07:07] [ServerMain/INFO]: Loaded 7 recipes
+[19:07:08] [ServerMain/INFO]: Loaded 1268 advancements
+[19:07:08] [Server thread/INFO]: Starting minecraft server version 23w18a
+[19:07:08] [Server thread/INFO]: Loading properties
+[19:07:08] [Server thread/INFO]: Default game type: SURVIVAL
+[19:07:08] [Server thread/INFO]: Generating keypair
+[19:07:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:07:08] [Server thread/INFO]: Using default channel type
+[19:07:08] [Server thread/INFO]: Preparing level "world"
+[19:07:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:07:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:07:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:07:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:07:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:07:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:07:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:07:13] [Worker-Main-4/INFO]: Preparing spawn area: 40%
+[19:07:13] [Server thread/INFO]: Time elapsed: 3264 ms
+[19:07:13] [Server thread/INFO]: Done (5.022s)! For help, type "help"
+[19:07:13] [User Authenticator #1/INFO]: UUID of player TomasMagnus is 8ca1820f-a196-4bb4-8670-13975617a407
+[19:07:13] [Server thread/INFO]: TomasMagnus[/[0:0:0:0:0:0:0:1]:3197] logged in with entity id 37 at (-120.23913834402057, 63.0, -617.5556649052272)
+[19:07:14] [Server thread/INFO]: TomasMagnus joined the game
+[19:07:18] [User Authenticator #2/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
+[19:07:18] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:3200] logged in with entity id 225 at (-71.70052259045941, 66.0, -539.6432552010712)
+[19:07:18] [Server thread/INFO]: ItsOxas joined the game
+[19:09:20] [Server thread/INFO]: ItsOxas has made the advancement [Not Today, Thank You]
+[19:11:33] [Server thread/INFO]: TomasMagnus tried to swim in lava to escape Wither Skeleton
+[19:11:43] [Server thread/INFO]: ItsOxas lost connection: Disconnected
+[19:11:43] [Server thread/INFO]: ItsOxas left the game
+[19:12:01] [Server thread/INFO]: [TomasMagnus: Set own game mode to Creative Mode]
+[19:12:04] [User Authenticator #3/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
+[19:12:04] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:3214] logged in with entity id 1363 at (-105.99320036724905, 60.0, -615.1763969006213)
+[19:12:04] [Server thread/INFO]: ItsOxas joined the game
+[19:12:22] [Server thread/INFO]: [TomasMagnus: Set own game mode to Survival Mode]
+[19:13:42] [Server thread/INFO]: [TomasMagnus: Teleported TomasMagnus to ItsOxas]
+[19:15:22] [Server thread/INFO]: ItsOxas was slain by Wither Skeleton
+[19:15:29] [Server thread/INFO]: TomasMagnus was slain by Wither Skeleton
+[19:15:29] [Server thread/INFO]: [ItsOxas: Teleported ItsOxas to TomasMagnus]
+[19:15:35] [Server thread/INFO]: ItsOxas tried to swim in lava to escape Wither Skeleton
+[19:15:38] [Server thread/INFO]: [TomasMagnus: Teleported TomasMagnus to ItsOxas]
+[19:15:56] [Server thread/INFO]: [TomasMagnus: Set own game mode to Creative Mode]
+[19:16:07] [Server thread/INFO]: [TomasMagnus: Set own game mode to Spectator Mode]
+[19:16:12] [Server thread/INFO]: [ItsOxas: Teleported ItsOxas to TomasMagnus]
+[19:16:13] [Server thread/INFO]: [TomasMagnus: Teleported 2 entities to -1298.500000, -52.000000, -4376.500000]
+[19:16:14] [Server thread/INFO]: [ItsOxas: Set own game mode to Spectator Mode]
+[19:16:30] [Server thread/INFO]: [ItsOxas: Set own game mode to Creative Mode]
+[19:16:33] [Server thread/INFO]: [TomasMagnus: Teleported TomasMagnus to ItsOxas]
+[19:16:37] [Server thread/INFO]: [TomasMagnus: Set own game mode to Creative Mode]
+[19:16:54] [Server thread/INFO]: [ItsOxas: Set own game mode to Survival Mode]
+[19:17:43] [Server thread/INFO]: [TomasMagnus: Set own game mode to Survival Mode]
+[19:17:47] [Server thread/INFO]: [TomasMagnus: Set own game mode to Spectator Mode]
+[19:18:06] [Server thread/INFO]: [TomasMagnus: Set own game mode to Survival Mode]
+[19:19:08] [Server thread/INFO]: [TomasMagnus: Gave 20 [Gold Ingot] to 2]
+[19:19:12] [Server thread/INFO]: ItsOxas has made the advancement [Into Fire]
+[19:19:26] [Server thread/INFO]: TomasMagnus has made the advancement [Oh Shiny]
+[19:20:47] [Server thread/INFO]: [TomasMagnus: Gave 20 experience levels to 2 players]
+[19:25:22] [Server thread/INFO]: TomasMagnus lost connection: Disconnected
+[19:25:22] [Server thread/INFO]: TomasMagnus left the game
+[19:25:47] [User Authenticator #4/INFO]: UUID of player TomasMagnus is 8ca1820f-a196-4bb4-8670-13975617a407
+[19:25:47] [Server thread/INFO]: TomasMagnus[/[0:0:0:0:0:0:0:1]:3298] logged in with entity id 4924 at (-84.75350476436579, 38.0227455592185, -586.0611807625052)
+[19:25:47] [Server thread/INFO]: TomasMagnus joined the game
+[19:25:48] [Server thread/INFO]: [ItsOxas: Teleported 2 entities to ItsOxas]
+[19:25:49] [Server thread/INFO]: TomasMagnus fell from a high place
+[19:25:58] [Server thread/INFO]: [ItsOxas: Teleported 2 entities to ItsOxas]
+[19:26:25] [Server thread/INFO]: [TomasMagnus: Applied effect Fire Resistance to TomasMagnus]
+[19:27:39] [Server thread/INFO]: TomasMagnus lost connection: Disconnected
+[19:27:39] [Server thread/INFO]: TomasMagnus left the game
+[19:27:45] [Server thread/INFO]: ItsOxas lost connection: Disconnected
+[19:27:45] [Server thread/INFO]: ItsOxas left the game
+[19:28:00] [Server thread/INFO]: Stopping the server
+[19:28:00] [Server thread/INFO]: Stopping server
+[19:28:00] [Server thread/INFO]: Saving players
+[19:28:00] [Server thread/INFO]: Saving worlds
+[19:28:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:28:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:28:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
