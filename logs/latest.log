@@ -1,81 +1,91 @@
-[19:07:06] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:07:07] [ServerMain/INFO]: Loaded 7 recipes
-[19:07:08] [ServerMain/INFO]: Loaded 1268 advancements
-[19:07:08] [Server thread/INFO]: Starting minecraft server version 23w18a
-[19:07:08] [Server thread/INFO]: Loading properties
-[19:07:08] [Server thread/INFO]: Default game type: SURVIVAL
-[19:07:08] [Server thread/INFO]: Generating keypair
-[19:07:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:07:08] [Server thread/INFO]: Using default channel type
-[19:07:08] [Server thread/INFO]: Preparing level "world"
-[19:07:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:07:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:07:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:07:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:07:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:07:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:07:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:07:13] [Worker-Main-4/INFO]: Preparing spawn area: 40%
-[19:07:13] [Server thread/INFO]: Time elapsed: 3264 ms
-[19:07:13] [Server thread/INFO]: Done (5.022s)! For help, type "help"
-[19:07:13] [User Authenticator #1/INFO]: UUID of player TomasMagnus is 8ca1820f-a196-4bb4-8670-13975617a407
-[19:07:13] [Server thread/INFO]: TomasMagnus[/[0:0:0:0:0:0:0:1]:3197] logged in with entity id 37 at (-120.23913834402057, 63.0, -617.5556649052272)
-[19:07:14] [Server thread/INFO]: TomasMagnus joined the game
-[19:07:18] [User Authenticator #2/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[19:07:18] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:3200] logged in with entity id 225 at (-71.70052259045941, 66.0, -539.6432552010712)
-[19:07:18] [Server thread/INFO]: ItsOxas joined the game
-[19:09:20] [Server thread/INFO]: ItsOxas has made the advancement [Not Today, Thank You]
-[19:11:33] [Server thread/INFO]: TomasMagnus tried to swim in lava to escape Wither Skeleton
-[19:11:43] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[19:11:43] [Server thread/INFO]: ItsOxas left the game
-[19:12:01] [Server thread/INFO]: [TomasMagnus: Set own game mode to Creative Mode]
-[19:12:04] [User Authenticator #3/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[19:12:04] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:3214] logged in with entity id 1363 at (-105.99320036724905, 60.0, -615.1763969006213)
-[19:12:04] [Server thread/INFO]: ItsOxas joined the game
-[19:12:22] [Server thread/INFO]: [TomasMagnus: Set own game mode to Survival Mode]
-[19:13:42] [Server thread/INFO]: [TomasMagnus: Teleported TomasMagnus to ItsOxas]
-[19:15:22] [Server thread/INFO]: ItsOxas was slain by Wither Skeleton
-[19:15:29] [Server thread/INFO]: TomasMagnus was slain by Wither Skeleton
-[19:15:29] [Server thread/INFO]: [ItsOxas: Teleported ItsOxas to TomasMagnus]
-[19:15:35] [Server thread/INFO]: ItsOxas tried to swim in lava to escape Wither Skeleton
-[19:15:38] [Server thread/INFO]: [TomasMagnus: Teleported TomasMagnus to ItsOxas]
-[19:15:56] [Server thread/INFO]: [TomasMagnus: Set own game mode to Creative Mode]
-[19:16:07] [Server thread/INFO]: [TomasMagnus: Set own game mode to Spectator Mode]
-[19:16:12] [Server thread/INFO]: [ItsOxas: Teleported ItsOxas to TomasMagnus]
-[19:16:13] [Server thread/INFO]: [TomasMagnus: Teleported 2 entities to -1298.500000, -52.000000, -4376.500000]
-[19:16:14] [Server thread/INFO]: [ItsOxas: Set own game mode to Spectator Mode]
-[19:16:30] [Server thread/INFO]: [ItsOxas: Set own game mode to Creative Mode]
-[19:16:33] [Server thread/INFO]: [TomasMagnus: Teleported TomasMagnus to ItsOxas]
-[19:16:37] [Server thread/INFO]: [TomasMagnus: Set own game mode to Creative Mode]
-[19:16:54] [Server thread/INFO]: [ItsOxas: Set own game mode to Survival Mode]
-[19:17:43] [Server thread/INFO]: [TomasMagnus: Set own game mode to Survival Mode]
-[19:17:47] [Server thread/INFO]: [TomasMagnus: Set own game mode to Spectator Mode]
-[19:18:06] [Server thread/INFO]: [TomasMagnus: Set own game mode to Survival Mode]
-[19:19:08] [Server thread/INFO]: [TomasMagnus: Gave 20 [Gold Ingot] to 2]
-[19:19:12] [Server thread/INFO]: ItsOxas has made the advancement [Into Fire]
-[19:19:26] [Server thread/INFO]: TomasMagnus has made the advancement [Oh Shiny]
-[19:20:47] [Server thread/INFO]: [TomasMagnus: Gave 20 experience levels to 2 players]
-[19:25:22] [Server thread/INFO]: TomasMagnus lost connection: Disconnected
-[19:25:22] [Server thread/INFO]: TomasMagnus left the game
-[19:25:47] [User Authenticator #4/INFO]: UUID of player TomasMagnus is 8ca1820f-a196-4bb4-8670-13975617a407
-[19:25:47] [Server thread/INFO]: TomasMagnus[/[0:0:0:0:0:0:0:1]:3298] logged in with entity id 4924 at (-84.75350476436579, 38.0227455592185, -586.0611807625052)
-[19:25:47] [Server thread/INFO]: TomasMagnus joined the game
-[19:25:48] [Server thread/INFO]: [ItsOxas: Teleported 2 entities to ItsOxas]
-[19:25:49] [Server thread/INFO]: TomasMagnus fell from a high place
-[19:25:58] [Server thread/INFO]: [ItsOxas: Teleported 2 entities to ItsOxas]
-[19:26:25] [Server thread/INFO]: [TomasMagnus: Applied effect Fire Resistance to TomasMagnus]
-[19:27:39] [Server thread/INFO]: TomasMagnus lost connection: Disconnected
-[19:27:39] [Server thread/INFO]: TomasMagnus left the game
-[19:27:45] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[19:27:45] [Server thread/INFO]: ItsOxas left the game
-[19:28:00] [Server thread/INFO]: Stopping the server
-[19:28:00] [Server thread/INFO]: Stopping server
-[19:28:00] [Server thread/INFO]: Saving players
-[19:28:00] [Server thread/INFO]: Saving worlds
-[19:28:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:28:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:28:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:28:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:31:42] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:31:43] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:119) ~[authlib-4.0.42.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:91) ~[authlib-4.0.42.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:94) ~[authlib-4.0.42.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.lambda$get$1(YggdrasilServicesKeyInfo.java:81) ~[authlib-4.0.42.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:564) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:378) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1287) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-4.0.42.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:96) ~[authlib-4.0.42.jar:?]
+	... 9 more
+[19:31:45] [ServerMain/INFO]: Loaded 7 recipes
+[19:31:45] [ServerMain/INFO]: Loaded 1268 advancements
+[19:31:46] [Server thread/INFO]: Starting minecraft server version 23w18a
+[19:31:46] [Server thread/INFO]: Loading properties
+[19:31:46] [Server thread/INFO]: Default game type: SURVIVAL
+[19:31:46] [Server thread/INFO]: Generating keypair
+[19:31:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:31:46] [Server thread/INFO]: Using default channel type
+[19:31:46] [Server thread/INFO]: Preparing level "world"
+[19:31:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:31:54] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[19:31:54] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:31:55] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:31:55] [Worker-Main-9/INFO]: Preparing spawn area: 34%
+[19:31:56] [Worker-Main-10/INFO]: Preparing spawn area: 88%
+[19:31:56] [Server thread/INFO]: Time elapsed: 8609 ms
+[19:31:56] [Server thread/INFO]: Done (9.964s)! For help, type "help"
+[19:32:04] [User Authenticator #1/INFO]: UUID of player TomasMagnus is 8ca1820f-a196-4bb4-8670-13975617a407
+[19:32:04] [Server thread/INFO]: TomasMagnus[/127.0.0.1:52751] logged in with entity id 24 at (-110.06285266553118, 60.0, -616.4144250346737)
+[19:32:04] [Server thread/INFO]: TomasMagnus joined the game
+[19:32:06] [Server thread/WARN]: Ignoring chat session from TomasMagnus due to missing Services public key
+[19:32:44] [Server thread/INFO]: [TomasMagnus: Gave 1000 experience points to TomasMagnus]
+[19:33:04] [Server thread/INFO]: [TomasMagnus: Gave 100 [Blaze Rod] to TomasMagnus]
+[19:33:15] [Server thread/INFO]: [TomasMagnus: Gave 1000 experience points to TomasMagnus]
+[19:33:20] [Server thread/INFO]: [TomasMagnus: Set own game mode to Creative Mode]
+[19:33:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2399ms or 47 ticks behind
+[19:33:47] [Server thread/INFO]: [TomasMagnus: Set own game mode to Spectator Mode]
+[19:34:14] [Server thread/INFO]: [TomasMagnus: Set own game mode to Survival Mode]
+[19:34:20] [Server thread/INFO]: [TomasMagnus: Set the time to 1000]
+[19:35:17] [Server thread/INFO]: [TomasMagnus: Removed every effect from TomasMagnus]
+[19:35:19] [Server thread/INFO]: TomasMagnus lost connection: Disconnected
+[19:35:19] [Server thread/INFO]: TomasMagnus left the game
+[19:35:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[19:35:25] [Server thread/INFO]: STOP<--[HERE]
+[19:35:28] [Server thread/INFO]: Stopping the server
+[19:35:28] [Server thread/INFO]: Stopping server
+[19:35:28] [Server thread/INFO]: Saving players
+[19:35:28] [Server thread/INFO]: Saving worlds
+[19:35:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:35:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:35:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:35:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:35:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:35:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:35:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
