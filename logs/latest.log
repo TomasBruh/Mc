@@ -1,73 +1,66 @@
-[21:10:27] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:10:29] [ServerMain/INFO]: Loaded 7 recipes
-[21:10:30] [ServerMain/INFO]: Loaded 1268 advancements
-[21:10:30] [Server thread/INFO]: Starting minecraft server version 23w18a
-[21:10:30] [Server thread/INFO]: Loading properties
-[21:10:30] [Server thread/INFO]: Default game type: SURVIVAL
-[21:10:30] [Server thread/INFO]: Generating keypair
-[21:10:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:10:31] [Server thread/INFO]: Using default channel type
-[21:10:31] [Server thread/INFO]: Preparing level "world"
-[21:10:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:10:35] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[21:10:36] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[21:10:36] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:10:36] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[21:10:36] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[21:10:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[21:10:36] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:10:36] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[21:10:36] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[21:10:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:37] [Worker-Main-3/INFO]: Preparing spawn area: 5%
-[21:10:38] [Worker-Main-1/INFO]: Preparing spawn area: 31%
-[21:10:38] [Worker-Main-2/INFO]: Preparing spawn area: 87%
-[21:10:39] [Server thread/INFO]: Time elapsed: 6125 ms
-[21:10:39] [Server thread/INFO]: Done (7.640s)! For help, type "help"
-[21:10:58] [User Authenticator #1/INFO]: Disconnecting com.mojang.authlib.GameProfile@4875db99[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:55084): Authentication servers are down. Please try again later, sorry!
-[21:10:58] [User Authenticator #1/ERROR]: Couldn't verify username because servers are unavailable
-[21:10:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@4875db99[id=<null>,name=ItsOxas,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:55084) lost connection: Authentication servers are down. Please try again later, sorry!
-[21:10:58] [User Authenticator #2/INFO]: Disconnecting com.mojang.authlib.GameProfile@6374879e[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:55087): Authentication servers are down. Please try again later, sorry!
-[21:10:58] [User Authenticator #2/ERROR]: Couldn't verify username because servers are unavailable
-[21:10:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@6374879e[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:55087) lost connection: Authentication servers are down. Please try again later, sorry!
-[21:11:00] [User Authenticator #3/INFO]: Disconnecting com.mojang.authlib.GameProfile@9d6daa8[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:55088): Authentication servers are down. Please try again later, sorry!
-[21:11:00] [User Authenticator #3/ERROR]: Couldn't verify username because servers are unavailable
-[21:11:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@9d6daa8[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:55088) lost connection: Authentication servers are down. Please try again later, sorry!
-[21:11:02] [User Authenticator #4/INFO]: Disconnecting com.mojang.authlib.GameProfile@42a810d[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:55089): Authentication servers are down. Please try again later, sorry!
-[21:11:02] [User Authenticator #4/ERROR]: Couldn't verify username because servers are unavailable
-[21:11:02] [Server thread/INFO]: com.mojang.authlib.GameProfile@42a810d[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:55089) lost connection: Authentication servers are down. Please try again later, sorry!
-[21:11:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@583a1589[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:55098) lost connection: Disconnected
-[21:11:05] [Server thread/INFO]: com.mojang.authlib.GameProfile@1a437b2d[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:55099) lost connection: Disconnected
-[21:11:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@6fedf329[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:55100) lost connection: Disconnected
-[21:11:08] [Server thread/INFO]: com.mojang.authlib.GameProfile@67e2934[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:55101) lost connection: Disconnected
-[21:11:11] [User Authenticator #5/INFO]: UUID of player ItsOxas is 3c5f8cb5-8ed1-46b2-9ec4-4772dd4becba
-[21:11:11] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:55104] logged in with entity id 24 at (-1248.2676716791595, 65.0, -4511.499238244583)
-[21:11:11] [Server thread/INFO]: ItsOxas joined the game
-[21:11:14] [Server thread/INFO]: com.mojang.authlib.GameProfile@57755cf[id=<null>,name=TomasMagnus,properties={},legacy=false] (/127.0.0.1:55106) lost connection: Disconnected
-[21:11:16] [User Authenticator #6/INFO]: UUID of player TomasMagnus is 8ca1820f-a196-4bb4-8670-13975617a407
-[21:11:16] [Server thread/INFO]: TomasMagnus[/127.0.0.1:55108] logged in with entity id 268 at (-1243.525262056722, 64.0, -4518.557651481045)
-[21:11:16] [Server thread/INFO]: TomasMagnus joined the game
-[21:11:29] [Server thread/INFO]: [ItsOxas: The difficulty has been set to Hard]
-[21:11:36] [Server thread/INFO]: [ItsOxas: Set the weather to clear]
-[21:13:13] [Server thread/INFO]: TomasMagnus has made the advancement [What a Deal!]
-[21:40:12] [Server thread/INFO]: <ItsOxas> -4479
-[22:03:09] [Server thread/INFO]: TomasMagnus fell from a high place
-[22:03:31] [Server thread/INFO]: ItsOxas fell from a high place
-[22:03:39] [Server thread/INFO]: [ItsOxas: Teleported ItsOxas to TomasMagnus]
-[22:05:28] [Server thread/INFO]: [TomasMagnus: Gave 15 experience levels to ItsOxas]
-[22:05:47] [Server thread/INFO]: [TomasMagnus: Gave 30 experience levels to TomasMagnus]
-[22:29:42] [Server thread/INFO]: TomasMagnus lost connection: Disconnected
-[22:29:42] [Server thread/INFO]: TomasMagnus left the game
-[22:29:44] [Server thread/INFO]: ItsOxas lost connection: Disconnected
-[22:29:44] [Server thread/INFO]: ItsOxas left the game
-[22:29:48] [Server thread/INFO]: Stopping the server
-[22:29:48] [Server thread/INFO]: Stopping server
-[22:29:48] [Server thread/INFO]: Saving players
-[22:29:48] [Server thread/INFO]: Saving worlds
-[22:29:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:29:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:29:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:29:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:29:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:29:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:29:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:32:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:32:58] [ServerMain/INFO]: Loaded 7 recipes
+[21:32:58] [ServerMain/INFO]: Loaded 1268 advancements
+[21:32:59] [Server thread/INFO]: Starting minecraft server version 23w18a
+[21:32:59] [Server thread/INFO]: Loading properties
+[21:32:59] [Server thread/INFO]: Default game type: SURVIVAL
+[21:32:59] [Server thread/INFO]: Generating keypair
+[21:32:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:32:59] [Server thread/INFO]: Using default channel type
+[21:32:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:32:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:32:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:32:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:32:59] [Server thread/INFO]: Preparing level "world"
+[21:33:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:33:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:33:06] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[21:33:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:33:06] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:33:06] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[21:33:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:33:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:33:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:33:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:33:06] [Worker-Main-2/INFO]: Preparing spawn area: 10%
+[21:33:07] [Server thread/INFO]: Time elapsed: 5000 ms
+[21:33:07] [Server thread/INFO]: Done (7.244s)! For help, type "help"
+[21:33:10] [Server thread/INFO]: TomasMagnus[/[0:0:0:0:0:0:0:1]:13693] logged in with entity id 23 at (-10.5, 71.0, -233.5)
+[21:33:10] [Server thread/INFO]: TomasMagnus joined the game
+[21:33:36] [Server thread/INFO]: ItsOxas[/[0:0:0:0:0:0:0:1]:13715] logged in with entity id 404 at (-10.5, 63.0, -230.5)
+[21:33:36] [Server thread/INFO]: ItsOxas joined the game
+[21:33:50] [Server thread/INFO]: Made TomasMagnus a server operator
+[21:33:50] [Server thread/INFO]: Made TomasMagnus a server operator
+[21:33:53] [Server thread/INFO]: [TomasMagnus: Teleported TomasMagnus to -1298.500000, -52.000000, -4376.500000]
+[21:33:58] [Server thread/INFO]: [ItsOxas: Teleported ItsOxas to TomasMagnus]
+[21:33:59] [Server thread/INFO]: [TomasMagnus: Set own game mode to Creative Mode]
+[21:34:00] [Server thread/INFO]: [TomasMagnus: Set own game mode to Spectator Mode]
+[21:34:26] [Server thread/INFO]: [TomasMagnus: Set own game mode to Creative Mode]
+[21:34:30] [Server thread/INFO]: [ItsOxas: Teleported ItsOxas to TomasMagnus]
+[21:34:52] [Server thread/INFO]: TomasMagnus has made the advancement [Stone Age]
+[21:35:19] [Server thread/INFO]: ItsOxas lost connection: Disconnected
+[21:35:19] [Server thread/INFO]: ItsOxas left the game
+[21:35:24] [Server thread/INFO]: ItsOxas[/127.0.0.1:13742] logged in with entity id 1303 at (-1247.7208883815822, 65.0, -4511.648341311967)
+[21:35:24] [Server thread/INFO]: ItsOxas joined the game
+[21:35:42] [Server thread/INFO]: [ItsOxas: Set own game mode to Creative Mode]
+[21:35:46] [Server thread/INFO]: ItsOxas has made the advancement [Suit Up]
+[21:35:48] [Server thread/INFO]: ItsOxas has made the advancement [Isn't It Iron Pick]
+[21:36:02] [Server thread/INFO]: TomasMagnus has made the advancement [Suit Up]
+[21:36:16] [Server thread/INFO]: [ItsOxas: Set own game mode to Survival Mode]
+[21:36:23] [Server thread/INFO]: [ItsOxas: Set own game mode to Creative Mode]
+[21:36:35] [Server thread/INFO]: ItsOxas has made the advancement [Stone Age]
+[21:37:10] [Server thread/INFO]: TomasMagnus has made the advancement [Sweet Dreams]
+[21:37:25] [Server thread/INFO]: [ItsOxas: Set own game mode to Survival Mode]
+[21:37:39] [Server thread/INFO]: ItsOxas has made the advancement [Monster Hunter]
+[21:38:22] [Server thread/INFO]: [ItsOxas: Set own game mode to Creative Mode]
+[21:38:43] [Server thread/INFO]: [ItsOxas: Set own game mode to Survival Mode]
+[21:38:46] [Server thread/INFO]: [ItsOxas: Set own game mode to Creative Mode]
+[21:39:01] [Server thread/INFO]: TomasMagnus lost connection: Disconnected
+[21:39:01] [Server thread/INFO]: TomasMagnus left the game
+[21:39:03] [Server thread/INFO]: ItsOxas lost connection: Disconnected
+[21:39:03] [Server thread/INFO]: ItsOxas left the game
+[21:39:07] [Server thread/INFO]: Stopping the server
+[21:39:07] [Server thread/INFO]: Stopping server
+[21:39:07] [Server thread/INFO]: Saving players
+[21:39:07] [Server thread/INFO]: Saving worlds
+[21:39:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
